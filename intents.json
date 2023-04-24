@@ -20,10 +20,5 @@
       "patterns" : ["What do you do?", "what is your role?", "why are you needed?", "What is it that you do here?"],
       "responses" : ["I am a ChatBot that is designed to reply all of your funky and quirky questions. So are you ready to ask yet?", "I am an AI chatBot created to have a nice conversation with the costumer and resolve any doubt they might comeup with.", "I am botty here for your assisstance!"]
     }
-    {
-      "tag": ,
-      "patterns": [],
-      "responses" : [],
-    }
   ]
 }
