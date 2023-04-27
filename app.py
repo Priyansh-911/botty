@@ -1,3 +1,4 @@
+import json
 from flask import Flask, render_template, request
 from chatbot import getResponse, predictClass
 
@@ -9,13 +10,13 @@ app = Flask(__name__)
 def index():
     if request.method == 'POST':
         message = request.form['message']
-        # ints = predictClass(message)
-        # res = getResponse(ints, intents)
-        # return render_template('index,html', message=message, response=res)
+        ints = predictClass(message)
+        res = getResponse(ints, intents)
+        return render_template('index.html', message=message, response=res)
 
     else:
         return render_template('index.html')
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
