@@ -7,18 +7,33 @@
     },
     {
       "tag" : "goodbye",
-      "patterns" : ["That's all", "Thank you for your help!", "Thank you", "GoodBye!", "Bye", "Have a good day!"],
+      "patterns" : ["That's all", "Thank you for your help!", "Thank you", "GoodBye!", "Bye", "Have a good day!", "ByeBye"],
       "responses" : ["It feels good to be helpful", "Goodbye!", "If you need me anytime in the future you know where to find me!", "Have a Good day!"]
     },
     {
       "tag" : "intro",
-      "patterns": ["What is your name?", "What are you called?", "May I know your name?", "What does your owner calls you?", "what can I call you?"],
+      "patterns": ["What is your name?", "What are you called?", "May I know your name?", "what can I call you?", "Tell me about yourself!"],
       "responses" : ["I am called botty! I know you might wonder what kind of a name is it, Well cannot say much it is just an anecdote on my creators coding skills :) , also you can call me anytime ¬‿¬. JUST KIDDING, please do not call me I am not that social. So what can I do for you??"]
     },
     {
       "tag" : "work",
       "patterns" : ["What do you do?", "what is your role?", "why are you needed?", "What is it that you do here?"],
       "responses" : ["I am a ChatBot that is designed to reply all of your funky and quirky questions. So are you ready to ask yet?", "I am an AI chatBot created to have a nice conversation with the costumer and resolve any doubt they might comeup with.", "I am botty here for your assisstance!"]
+    },
+    {
+      "tag" : "creator",
+      "patterns" : ["Who made you?", "Who owns you?", "name your creators", "may i know who made you?", "masterminds behind you"],
+      "responses" : ["Priyansh Gupta and Dhruv Aggarwal are my creators!, You can know more about them using the 'know more' button in the bottom", "I was made by Priyansh Gupta and Dhruv Aggarwal for the ChatHacks hackathon held by MLH. You can know more about them using the 'know more' button in the bottom."]
+    },
+    {
+      "tag" : "fun#1",
+      "patterns" : ["Give me a fun fact!", "Give me fun fact", "fact's time!"],
+      "responses" : ["It is the first hackathon for both of the creators.", "A crocodile cannot stick its tongue out.", "The Mona Lisa has no eyebrows.", " 'I Am' is the shortest complete sentence in the English language.", "C and Java have variants of python named CPython and jython", "Python is an open-source language!", "NASA still operates some projects on programming from the 1970's", "There are around 700 separate programming languages", "Computer Programming was instrumental in helping end World War II."]
+    },
+    {
+      "tag" : "fun#2",
+      "patterns" : ["Botty I choose you", "I choose you","go botty", "pika pikachu!", "I Want to become the master Pokémon trainer."],
+      "responses" : ["Hmm another Poke fan! Well here's a fact - Rhydon is the 1st Pokémon ever created.", "Hmm another Poke fan! Well here's a fact - Pikachu and Meowth have opposite Pokédex numbers.", "Hmm another Poke fan! Well here's a fact - There's an enzyme named after Pikachu.","Hmm another Poke fan! Well here's a fact - Drowzee's skill is derived from Japanese folklore.","Hmm another Poke fan! Well here's a fact - The creator of Pokémon was inspired by insect-catching.","Hmm another Poke fan! Well here's a fact - Hitmonlee & Hitmonchan are derived from Bruce Lee and Jackie Chan.","Hmm another Poke fan! Well here's a fact - Pokemons actual full name is Pocket-Monsters."]
     }
   ]
 }
