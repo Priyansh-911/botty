@@ -21,9 +21,9 @@ def chat():
     res = getResponse(ints, intents)
     return res
 
-@app.route('/about-us')
+@app.route('/us.html')
 def us():
-    return render_template('ABOUT US.html')
+    return render_template('us.html')
 
 
 

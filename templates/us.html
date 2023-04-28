@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Our Team Section | CodingLab </title>---->
+    <link rel="stylesheet" href="{{url_for('static' , filename='us.css')}}">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <input type="radio" name="dot" id="one">
+    <input type="radio" name="dot" id="two">
+    <div class="main-card">
+      <div class="cards">
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <img src="{{ url_for('static' , filename='A07I1590.JPG')}}" alt="">
+           </div>
+           <div class="details">
+             <div class="name">Dhruv Aggarwal</div>
+             <div class="job">MY NAME IS DHRUV AGGARWAL. I AM A STUDENT OF MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY PURSUING B.TECH 2ND YEAR IN CSE BRANCH</div>
+           </div>
+           <div class="media-icons">
+             
+            
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <div class="img">
+            <!--- <img src="images/img2.jpg" alt="">--->
+           </div>
+           <div class="details">
+             <div class="name">Priyansh Gupta</div>
+             <div class="job">MY NAME IS PRIYANSH GUPTA . I AM A STUDENT OF KRISHNA INSTITUTE OF ENGINEERING TECHNOLOGY COLLEGE PURSUING B.TECH 2ND YEAR IN IT BRANCH</div>
+           </div>
+           <div class="media-icons">
+             
+           </div>
+         </div>
+        </div>
+       
+      </div>
+      <div class="cards">
+        <div class="card">
+         <div class="content">
+           <div class="img">
+             <!---<img src="images/img4.jpg" alt="">--->
+           </div>
+          
+        
+    <div class="button">
+      <label for="one" class=" active one"></label>
+      <label for="two" class="two"></label>
+    </div>
+  </div>
+</body>
+</html>
