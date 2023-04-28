@@ -10,16 +10,16 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/chatbot2.html', methods=['GET', 'POST'])
+@app.route('/chatbot2.html')
 def index():
-    if request.method == 'POST':
-        message = request.form['message']
-        ints = predictClass(message)
-        res = getResponse(ints, intents)
-        return render_template('chatbot2.html', message=message, response=res)
+    return render_template('chatbot2.html')
 
-    else:
-        return render_template('chatbot2.html')
+@app.route('/get-response', methods=['GET', 'POST'])
+def chat():
+    message = request.form['msg']
+    ints = predictClass(message)
+    res = getResponse(ints, intents)
+    return res
 
 
 if __name__ == '__main__':
