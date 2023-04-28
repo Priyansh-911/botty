@@ -21,6 +21,11 @@ def chat():
     res = getResponse(ints, intents)
     return res
 
+@app.route('/about-us')
+def us():
+    return render_template('ABOUT US.html')
+
+
 
 if __name__ == '__main__':
     app.run()
