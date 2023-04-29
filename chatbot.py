@@ -49,16 +49,21 @@ def getResponse(intentsList, intentsJSON):
     tag = intentsList[0]['intent']
     listOfIntents = intentsJSON['intents']
     for i in listOfIntents:
-        if i['tag'] == tag:
+        if i['tag'] == tag and tag == 'fun#1':
+            result = "Here's a fun fact, " + random.choice(i['responses'])
+            break
+        elif i['tag'] == tag:
             result = random.choice(i['responses'])
             break
+        
     return result
 
 
 print("Bot is up and Running!!!!")
 
-# while True:
-#     message = input("")
-#     ints = predictClass(message)
-#     res = getResponse(ints, intents)
-#     print(res)
+while True:
+    message = input("")
+    ints = predictClass(message)
+    print(ints)
+    res = getResponse(ints, intents)
+    print(res)
