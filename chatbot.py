@@ -55,15 +55,16 @@ def getResponse(intentsList, intentsJSON):
         elif i['tag'] == tag:
             result = random.choice(i['responses'])
             break
-        
+        # else:
+        #     return "Beep..Boop..Beep.... I am still a bot! I dont understand! Pls type something else."
     return result
 
 
 print("Bot is up and Running!!!!")
 
-while True:
-    message = input("")
-    ints = predictClass(message)
-    print(ints)
-    res = getResponse(ints, intents)
-    print(res)
+# while True:
+#     message = input("")
+#     ints = predictClass(message)
+#     print(ints)
+#     res = getResponse(ints, intents)
+#     print(res)
