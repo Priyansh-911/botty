@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <!---<title> Responsive Our Team Section | CodingLab </title>---->
-    <link rel="stylesheet" href="us.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='us.css')}}">
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
         <div class="card">
          <div class="content">
            <div class="img">
-             <img src="/static/A07I1590.JPG" alt="">
+             <img src="{{url_for('static', filename='A07I1590.JPG')}}" alt="">
            </div>
            <div class="details">
              <div class="name">Dhruv Aggarwal</div>
@@ -27,7 +27,7 @@
            <div class="media-icons">
              <a href="https://www.linkedin.com/in/dhruv-aggarwal-719095225" target="_blank"><i class="fab fa-linkedin"></i></a>
              <a href="https://github.com/dhruvaggarwal1" target="_blank"><i class="fab fa-github"></i></a>
-             <a href="_dhruvaggarwal12_" taget="_blank"><i class="fab fa-instagram"></i></a>
+             <a href="https://instagram.com/_dhruvaggarwal12_?igshid=YmMyMTA2M2Y=" taget="_blank"><i class="fab fa-instagram"></i></a>
            
            </div>
          </div>
@@ -35,7 +35,7 @@
         <div class="card">
          <div class="content">
            <div class="img">
-            <!--- <img src="images/img2.jpg" alt="">--->
+            <img src="{{url_for('static', filename='priyansh.jpeg')}}" alt="">
            </div>
            <div class="details">
              <div class="name">Priyansh Gupta</div>
