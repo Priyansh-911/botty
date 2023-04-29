@@ -17,19 +17,19 @@ body::before{
   content: '';
   position: absolute;
   width: 100%;
-  background: #FF676D;
+  background: #7b67ff;
   clip-path: inset(47% 0 0 0);
   z-index: -1;
   height: 100%;
 }
 ::selection{
-  background:	#FF676D;
+  background:	#7967ff;
   color: #fff;
 }
 .container{
-  max-width: 950px;
-  width: 100%;
-  overflow: hidden;
+  max-width: 1100px;
+  width: 200%;
+  overflow: shown;
   padding: 80px 0;
 }
 .container .main-card{
@@ -72,23 +72,23 @@ body::before{
   width: 130px;
   border-radius: 50%;
   padding: 3px;
-  background: #FF676D;
+  background: #7e67ff;
   margin-bottom: 14px;
 }
 .card .content .img img{
   height: 100%;
   width: 100%;
   border: 3px solid #ffff;
-  border-radius: 50%;
+  border-radius: 30%;
   object-fit: cover;
 }
 .card .content .name{
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 500;
 }
 .card .content .job{
   font-size: 20px;
-  color: #FF676D;
+  color: #1c0995;
 }
 .card .content .media-icons{
   margin-top: 10px;
@@ -105,7 +105,7 @@ body::before{
   color: #FFF;
   border-radius: 50%;
   border: 2px solid transparent;
-  background: #FF676D;
+  background: #2505a6;
   transition: all 0.3s ease;
 }
 .media-icons a:hover{
