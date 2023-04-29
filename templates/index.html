@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" dir=""Itr>
+<html lang="en">
 <head>
+    <!-- <title>Botty Bot</title>
+    <link rel="stylesheet" href="/static/style.css"> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link rel="stylesheet" href="/static/style.css">
     <script src="https://kit.fontawesome.com/6b01972f8d.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <script>
@@ -18,22 +20,28 @@
     </script>
 </head>
 <body>
-    <nav>
-        <label class="logo">Chat bot</label>
-        <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="chatbot2.html" target="_blank">Chat with us</a></li>
-            <li><a href="us.html" target="_blank">About us</a></li>
-            
-            
-        </ul>
-        <label id="icon">
-            <i class="fas fa-bars"></i>
-        </label>
-    </nav>
-    <section>
-         
+    <div class="banner">
+        <div class="navbar">
+            <nav>
+                <label class="logo">Botty bot</label>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="chatbot2.html" target="_blank">Chat with us</a></li>
+                    <li><a href="us.html" target="_blank">About us</a></li>
+                    
+                    
+                </ul>
+                <label id="icon">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>BOTTY BOT</h1>
+            <P>THIS IS OUR CHATBOT</P>
+        </div>
 
-    </section>
+    </div>
+    
 </body>
 </html>
