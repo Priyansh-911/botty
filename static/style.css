@@ -6,13 +6,19 @@
 .banner{
    width: 100%;
    height: 100vh;
-   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(chatbot.jfif);
-   background-size: cover;
-   background-position: center;
+   
+   background: rgb(44, 47, 59);
+  background: -webkit-linear-gradient(to right, rgb(40, 59, 34), rgb(54, 60, 70), rgb(32, 32, 43));
+  background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
 }
 
+    /* background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(chatbot.jfif);
+   background-size: cover;
+   background-position: center; */
+
+
 label.logo{
-   font-size:35px;
+   font-size:70px;
    font-style:oblique;
    font-weight:bold;
    color:white;
@@ -33,7 +39,8 @@ label.logo{
 nav{
    height:80px;
    width:100%;
-   background:none;
+   background: rgba(168, 182, 214, 0.2);
+   backdrop-filter: blur(14px);
 }
 
 nav ul{
@@ -46,15 +53,16 @@ nav li{
    line-height: 80px;
 }
 nav a{
-   color: aliceblue;
-   font-size:18px;
+   color: #7e67ff;
+   font-size:30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-transform:uppercase;
    border: 1px solid transparent;
    padding: 7px 10px;
    border-radius:3px;
 }
 a.active,a:hover{
-   border: 1px solid rgb(208, 205, 211);
+   border: 1px solid rgb(34, 3, 65);
    transition: .5s;
 }
 nav #icon{
@@ -118,6 +126,11 @@ nav #icon{
       transform: translateY(-50%);
       text-align: center;
       color: antiquewhite;
+      text-align: left;
+      margin-left: 10%;
+      padding-top: 10%;
+      padding-left: 10%;
+      padding-bottom: 4%;
 }
 .contents h1{
    font-size: 70px;
@@ -128,4 +141,19 @@ nav #icon{
    margin: 20px auto;
    font-weight: 100;
    line-height: 25px;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    align-self: baseline;
+}
+
+.botimg{
+   padding-left: 900px;
+   padding-top: 5%;
+}
+
+html,body{
+   overflow:hidden
 }
