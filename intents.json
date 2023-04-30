@@ -32,8 +32,23 @@
     },
     {
       "tag" : "fun#2",
-      "patterns" : ["Botty I choose you", "I choose you","go botty", "pika pikachu!", "I Want to become the master Pokémon trainer."],
-      "responses" : ["Hmm another Poke fan! Well here's a fact - Rhydon is the 1st Pokemon ever created.", "Hmm another Poke fan! Well here's a fact - Pikachu and Meowth have opposite Pokedex numbers.", "Hmm another Poke fan! Well here's a fact - There's an enzyme named after Pikachu.","Hmm another Poke fan! Well here's a fact - Drowzee's skill is derived from Japanese folklore.","Hmm another Poke fan! Well here's a fact - The creator of Pokemon was inspired by insect-catching.","Hmm another Poke fan! Well here's a fact - Hitmonlee & Hitmonchan are derived from Bruce Lee and Jackie Chan.","Hmm another Poke fan! Well here's a fact - Pokemons actual full name is Pocket-Monsters."]
+      "patterns" : ["Botty I choose you", "I choose you","go botty", "pika pikachu!", "I Want to become the master Pokemon trainer."],
+      "responses" : ["Hmm another Poke fan! Well here's a fact - Rhydon is the 1st Pokemon ever created.", "Hmm another Poke fan! Well here's a fact - Pikachu and Meowth have opposite Pokedex numbers.", "Hmm another Poke fan! Well here's a fact - There's an enzyme named after Pikachu.","Hmm another Poke fan! Well here's a fact - Drowzee's skill is derived from Japanese folklore.","Hmm another Poke fan! Well here's a fact - The creator of Pokemon was inspired by insect-catching.","Hmm another Poke fan! Well here's a fact - Hitmonlee & Hitmonchan are derived from Bruce Lee and Jackie Chan.","Hmm another Poke fan! Well here's a fact - Pokemons actual full name is Pocket-Monsters.","Hmm another Poke fan! Well here's a fact - The anime was only meant to last for one season","Hmm another Poke fan! Well here's a fact - Over 30 billion Pokemon cards have been sold","Hmm another Poke fan! Well here's a fact - Pikachu wasn't Pokemon's original mascot","Hmm another Poke fan! Well here's a fact - 1.99m difference between the shortest & tallest Pokemon","Hmm another Poke fan! Well here's a fact - Pokemon was created by a video game designer called Satoshi Tajiri in 1995"]
+    },
+    {
+      "tag" : "shipping",
+      "patterns" : ["When will my shipment arrive?", "Where is the delivery?", "is the package out for delivery yet?", "when will my delivery arrive?", "is my delivery out yet?", "when will my package leave for delivery?"],
+      "responses" : ["Your package is currently under the shipping proecss", "It is not out yet, We will let you know when it does!", "It is out for delivery so you could expect the delivery soon!"]
+    },
+    {
+      "tag" : "service",
+      "patterns" : ["Could you please provide me with service centres contact informations", "Service centers contact information","address of the service centre", "need assistance!"],
+      "responses" : ["You could always contact to us using the email: help@service.com or if you wish you could visit us locally at 2nd street, UP, INDIA"]
+    },
+    {
+      "tag" : "stocks",
+      "patterns" : ["What are the stocks that i own?", "Stocks under my portfolio?", "Shares that I own?"],
+      "responses" : ["The Stocks under your portfolio are: ADANI POWER, RELIANCE, TATA STEEL, WIPRO, INFOSYS, TCS."]
     }
   ]
 }
