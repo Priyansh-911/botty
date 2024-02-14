@@ -21,11 +21,11 @@ def chat():
     res = getResponse(ints, intents)
     return res
 
-# @app.route('/us.html')
-# def us():
-#     return render_template('us.html')
+@app.route('/us.html')
+def us():
+    return render_template('us.html')
 
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug = True, port=5501)

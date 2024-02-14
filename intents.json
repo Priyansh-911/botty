@@ -18,12 +18,12 @@
     {
       "tag" : "work",
       "patterns" : ["What do you do?", "what is your role?", "why are you needed?", "What is it that you do here?"],
-      "responses" : ["I am a ChatBot that is designed to reply all of your funky and quirky questions. So are you ready to ask yet?", "I am an AI chatBot created to have a nice conversation with the costumer and resolve any doubt they might comeup with.", "I am botty here for your assisstance!"]
+      "responses" : ["I am a ChatBot that is designed to reply all of your funky and quirky questions. So are you ready to ask yet?", "I am an AI chatBot created to have a nice conversation with the customer and resolve any doubt they might comeup with.", "I am botty here for your assisstance!"]
     },
     {
       "tag" : "creator",
       "patterns" : ["Who made you?", "Who owns you?", "name your creators", "may i know who made you?", "masterminds behind you"],
-      "responses" : ["Priyansh Gupta and Dhruv Aggarwal are my creators!, You can know more about them using the 'know more' button in the bottom", "I was made by Priyansh Gupta and Dhruv Aggarwal for the ChatHacks hackathon held by MLH. You can know more about them using the 'know more' button in the bottom."]
+      "responses" : ["Priyansh Gupta and Dhruv Aggarwal are my creators!, You can know more about them using the 'about us' button in the bottom", "I was made by Priyansh Gupta and Dhruv Aggarwal for the ChatHacks hackathon held by MLH. You can know more about them using the 'know more' button in the bottom."]
     },
     {
       "tag" : "fun#1",
