@@ -8,7 +8,7 @@ from nltk.stem import WordNetLemmatizer
 
 from keras.models import load_model
 
-nltk.download('punkt')
+#nltk.download('punkt')
 
 lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
